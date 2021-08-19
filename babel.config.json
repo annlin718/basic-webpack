@@ -1,0 +1,27 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "useBuiltIns": "entry",
+                "targets": {
+                    //瀏覽器最低轉換目標
+                    "chrome": "58",
+                    "ie": "10"
+                }
+            }
+        ]
+    ],
+    "plugins": [
+        [
+            "@babel/plugin-transform-runtime",
+            {
+                "absoluteRuntime": false,
+                "corejs": false,
+                "helpers": true,
+                "regenerator": true,
+                "version": "7.0.0-beta.0"
+            }
+        ]
+    ]
+}

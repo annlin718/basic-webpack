@@ -1,0 +1,24 @@
+$primary-BG-Color:rgb(224, 24, 57);
+
+body {
+    background: $primary-BG-Color;
+
+    h1 {
+        color: #ffffff;
+        display: flex;
+    }
+
+    #DivTEST {
+        width: 800px;
+        height: 800px;
+        // background: #000;
+        background-image: url(../img/jump.gif);
+        // filter: blur(5px);
+    }
+
+    #divTest2 {
+        width: 100px;
+        height: 100px;
+        background-image: url(../img/fishing.svg);
+    }
+}
